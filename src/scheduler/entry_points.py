@@ -600,17 +600,17 @@ def run_analyze(
                 basename = edge_file.stem
                 
                 # 중심성 결과 저장
-                if centrality_result.centrality_df is not None:
-                    centrality_result.centrality_df.to_parquet(
+                if centrality_result is not None and not centrality_result.empty:
+                    centrality_result.to_parquet(
                         output_dir / "centrality" / f"{basename}_centrality.parquet",
                         index=False,
                     )
                 
                 # 커뮤니티 결과 저장
-                if community_result.node_communities:
+                if community_result.node_community_map:
                     community_df = pd.DataFrame([
                         {"node": node, "community": comm}
-                        for node, comm in community_result.node_communities.items()
+                        for node, comm in community_result.node_community_map.items()
                     ])
                     community_df.to_parquet(
                         output_dir / "community" / f"{basename}_community.parquet",

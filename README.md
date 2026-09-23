@@ -2,6 +2,10 @@
 
 A data pipeline for collecting, parsing, and analyzing 3GPP TDoc (Technical Document) data to build company collaboration networks and Work Item association networks.
 
+## Dashboard Preview
+
+![Dashboard](docs/images/dashboard_main.png)
+
 ## Overview
 
 3GPP (3rd Generation Partnership Project) is an international standards organization for mobile telecommunications. This pipeline collects TDoc lists from the 3GPP FTP server and analyzes inter-company collaboration relationships and Work Item associations using network analysis techniques.
@@ -39,7 +43,7 @@ A data pipeline for collecting, parsing, and analyzing 3GPP TDoc (Technical Docu
 
 ```bash
 # Clone repository
-git clone https://github.com/your-username/3gpp-network-analysis.git
+git clone https://github.com/joostone-ahn/3gpp-network-analysis.git
 cd 3gpp-network-analysis
 
 # Create virtual environment (optional)
@@ -81,7 +85,7 @@ python -m src.analyzer
 ### Run Dashboard
 
 ```bash
-streamlit run src/dashboard/app.py
+PYTHONPATH=. streamlit run src/dashboard/app.py
 ```
 
 ## Directory Structure
@@ -111,7 +115,7 @@ streamlit run src/dashboard/app.py
 │   ├── scheduler/             # Pipeline scheduler
 │   └── utils/                 # Utility modules
 ├── tests/                      # Test code
-├── .kiro/specs/               # Kiro spec documents
+├── docs/images/               # Screenshots
 ├── pyproject.toml             # Project configuration
 ├── requirements.txt           # Python dependencies
 └── README.md
