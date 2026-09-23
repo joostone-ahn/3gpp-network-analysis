@@ -1,0 +1,667 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1.1 프로젝트 디렉토리 구조 생성": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121819871
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121831881
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121938313
+      }
+    ],
+    "1.2 의존성 및 프로젝트 설정 파일 생성": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121819933
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121832771
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121938998
+      }
+    ],
+    "1.3 Config Loader 유틸리티 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121819965
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121948517
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122194463
+      }
+    ],
+    "1.4 Logger 유틸리티 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820017
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121949177
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122195307
+      }
+    ],
+    "1.5 설정 YAML 파일 생성": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820045
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122205795
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122216072
+      }
+    ],
+    "2. Checkpoint - 프로젝트 구조 검증": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820068
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122236661
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122404767
+      }
+    ],
+    "3.1 FTPCollector 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820097
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122419644
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122799680
+      }
+    ],
+    "4.1 TDocParser 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820129
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122420382
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122800568
+      }
+    ],
+    "4.2 Parquet 직렬화 함수 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820160
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122822054
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122997188
+      }
+    ],
+    "5. Checkpoint - 데이터 수집 및 파싱 검증": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820188
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790123012821
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790123294595
+      }
+    ],
+    "6.1 TitleFilter 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820218
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790123013468
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790123295450
+      }
+    ],
+    "7.1 SourceCleaner 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820246
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790123306901
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790124008085
+      }
+    ],
+    "7.3 MembershipNormalizer 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820274
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790123307749
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790124009015
+      }
+    ],
+    "7.5 MembershipExtractor 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820317
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790124018754
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790124334701
+      }
+    ],
+    "8.1 WIExploder 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820345
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790124345426
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790124696457
+      }
+    ],
+    "8.2 TemporalEnricher 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820370
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790124346360
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790124697353
+      }
+    ],
+    "9.1 CacheManager 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820397
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790124707745
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790124887667
+      }
+    ],
+    "10. Checkpoint - 전처리 파이프라인 검증": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820455
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790124945163
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790125319179
+      }
+    ],
+    "11.1 CompanyNetworkBuilder 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820486
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790125334808
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790125597004
+      }
+    ],
+    "11.2 WINetworkBuilder 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820523
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790125601874
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790125810231
+      }
+    ],
+    "12.1 NetworkStatistics 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820577
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790125820847
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790126031930
+      }
+    ],
+    "12.3 CentralityAnalyzer 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820604
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790126036597
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790126214896
+      }
+    ],
+    "12.5 CommunityDetector 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820635
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790126220245
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790126521015
+      }
+    ],
+    "12.6 AdvancedAnalyzer 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820688
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790126220964
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790126521706
+      }
+    ],
+    "13. Checkpoint - 네트워크 분석 검증": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820719
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790126531818
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790126929620
+      }
+    ],
+    "14.1 Dashboard 데이터 로더 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820749
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790126940641
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790127483019
+      }
+    ],
+    "14.2 사이드바 필터 패널 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820894
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790126941546
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790127483760
+      }
+    ],
+    "14.3 네트워크 그래프 시각화 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820928
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790127488666
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790128010343
+      }
+    ],
+    "14.4 통계 차트 및 테이블 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121820962
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790127489677
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790128011038
+      }
+    ],
+    "14.5 에러 처리 및 빈 데이터 처리": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121821025
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790128019679
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790128397279
+      }
+    ],
+    "15.1 PipelineScheduler 클래스 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121821063
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790128402808
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790128795674
+      }
+    ],
+    "15.2 독립 모듈 실행 엔트리포인트 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121821098
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790128403654
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790128796417
+      }
+    ],
+    "16.1 전체 파이프라인 통합 테스트 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121821155
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790128801485
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790129059233
+      }
+    ],
+    "17. Final Checkpoint - 전체 시스템 검증": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790121821184
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790129064321
+      },
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790129409769
+      }
+    ],
+    "1. 프로젝트 구조 및 설정 시스템 구축": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122216122
+      }
+    ],
+    "3. FTP Collector 모듈 구현 (Stage 1)": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122799781
+      }
+    ],
+    "4. Parser 모듈 구현 (Stage 1.5)": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790122997253
+      }
+    ],
+    "6. Title Filter 구현 (Stage 2)": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790123295521
+      }
+    ],
+    "7. Source 정제 및 멤버십 기반 추출 구현 (Stage 3)": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790124334804
+      }
+    ],
+    "8. WI Exploder 및 Temporal Enricher 구현 (Stage 4-5)": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790124697398
+      }
+    ],
+    "9. Cache Manager 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790124887795
+      }
+    ],
+    "11. Network Builder 모듈 구현 (Stage 6)": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790125810366
+      }
+    ],
+    "12. Network Analyzer 모듈 구현 (Stage 7)": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790126521734
+      }
+    ],
+    "14. Dashboard 모듈 구현 (Stage 8)": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790128397360
+      }
+    ],
+    "15. Pipeline Scheduler 구현": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790128796446
+      }
+    ],
+    "16. 파이프라인 통합 및 재현성 테스트": [
+      {
+        "executionId": "7fe6071c-fc6f-43ed-8333-a87bbd3f86f8",
+        "chatSessionId": "sess_ceb0a2a3-3d0f-483d-a0e2-fb3e8059c6b4",
+        "timestamp": 1790129059335
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+# config/collector.yaml
+# 3GPP FTP 수집 설정
+# Requirements: 1.3
+
+ftp:
+  host: ftp.3gpp.org
+  # 경로 패턴: /tsg_{tsg}/TSG_{TSG}/TSGR_{mtg}/Docs/ (TSG 총회) + WG 하위 디렉토리
+  base_path_template: "/tsg_{tsg_lower}/TSG_{tsg}/TSGR_{mtg}/Docs/"
+
+targets:
+  - tsg: RAN
+    min_meeting: 69
+    wg_list: [TSG, WG1, WG2, WG3, WG4, WG5, WG6]
+  - tsg: SA
+    min_meeting: 69
+    wg_list: [TSG, WG1, WG2, WG3, WG4, WG5, WG6]
+  - tsg: CT
+    min_meeting: 69
+    wg_list: [TSG, WG1, WG2, WG3, WG4, WG5, WG6]
+
+retry:
+  max_attempts: 3
+  delay_seconds: 5

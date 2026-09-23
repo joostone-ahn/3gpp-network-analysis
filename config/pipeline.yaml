@@ -1,0 +1,8 @@
+# config/pipeline.yaml
+# 파이프라인 스케줄러 설정
+# Requirements: 14.1
+
+# cron 형식 스케줄 표현식
+# 형식: 분 시 일 월 요일
+# 예시: "0 0 * * 0" - 매주 일요일 자정 실행
+schedule: "0 0 * * 0"

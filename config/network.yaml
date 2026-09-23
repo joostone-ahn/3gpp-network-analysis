@@ -1,0 +1,19 @@
+# config/network.yaml
+# 네트워크 구성 설정
+# Requirements: 8.4, 9.4
+
+# Edge Weight 임계값 목록 (0~9)
+thresholds: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+# 시간 단위 목록
+time_units:
+  - year
+  - release
+  - quarter
+
+# TSG 그룹 목록
+tsg_groups:
+  - ALL
+  - RAN
+  - SA
+  - CT

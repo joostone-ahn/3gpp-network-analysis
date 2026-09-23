@@ -1,0 +1,13 @@
+# config/analysis.yaml
+# 네트워크 분석 설정
+# Requirements: 11.4, 12
+
+# Louvain 커뮤니티 탐지 랜덤 시드 (재현성 보장, 요구사항 16.2)
+louvain_seed: 42
+
+# Eigenvector Centrality 최대 반복 횟수
+# 원본 노트북은 NetworkX 기본값(100)을 사용했으나 미수렴 가능성으로 1000으로 완화
+eigenvector_max_iter: 1000
+
+# Small-world 분석용 무작위 네트워크 생성 횟수
+random_network_samples: 100

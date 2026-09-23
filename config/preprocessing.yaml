@@ -1,0 +1,269 @@
+# config/preprocessing.yaml
+# 전처리 설정
+# Requirements: 3.2, 4.2, 4.3, 5.2, 5.3, 6.2
+
+# =============================================================================
+# Title 기반 필터링 (Stage 2)
+# =============================================================================
+
+# 제외 대상 패턴 (12개 LS 관련 패턴 + CR pack)
+# case-insensitive 적용
+title_exclude_patterns:
+  - "LS on"
+  - "LS to"
+  - "LS Reply"
+  - "Reply LS"
+  - "LS in relation to"
+  - "LS for"
+  - "LS regarding"
+  - "LS response"
+  - "LS out"
+  - "LS answer"
+  - "LS about"
+  - "LS-Replay"
+  - "CR pack"
+
+# =============================================================================
+# Source 문자열 정제 규칙 (Stage 3 - 매칭 전 전처리)
+# =============================================================================
+
+source_cleaning:
+  # 특수 치환 (MCC 필터링 전 예외처리)
+  special_replacements:
+    CMCC: "China Mobile"
+  
+  # 제거할 문자 목록
+  remove_characters:
+    - "["
+    - "]"
+    - "."
+  
+  # 단어 경계 공백 추가 (부분 문자열 오매칭 방지)
+  add_word_boundary_spaces: true
+
+# =============================================================================
+# 멤버십 정규화 규칙 (Stage 3 - 8단계 순차 적용)
+# 개수는 2026-09 원본 노트북 재검증 결과 정정
+# =============================================================================
+
+membership_normalization:
+  # a) stopwords - 법인격(47개) + 일반 단어(15개), 총 62개
+  stopwords:
+    # 법인격 (47개)
+    - " GmbH & Co.KG"
+    - " GmbH"
+    - " SA/NV"
+    - " Corporation."
+    - " Corporation"
+    - " Corp."
+    - " Corp"
+    - " Limited"
+    - " Co. Ltd."
+    - " Co. Ltd"
+    - " Co Ltd."
+    - " Co Ltd"
+    - " Co."
+    - " Co "
+    - " Intl Ltd."
+    - " Intl Ltd"
+    - " UK Ltd."
+    - " UK Ltd"
+    - " UK Limited"
+    - " International"
+    - " Pvt"
+    - " Ltd."
+    - " Ltd"
+    - " Incorporated"
+    - " Inc."
+    - " Inc"
+    - " B.V."
+    - " B.V"
+    - " S.A.S."
+    - " S.A.S"
+    - " SAS"
+    - " S.A."
+    - " S.A"
+    - " S.L."
+    - " A.S."
+    - " S.p.A."
+    - " SpA"
+    - " LLC"
+    - " Company"
+    - " N.V."
+    - " AB"
+    - " A/S"
+    - " ASA"
+    - " AS"
+    - " AG"
+    - " plc"
+    - " s.r.o"
+    # 일반 단어 (15개)
+    - " Software Technology"
+    - " Software Tech."
+    - " Technology"
+    - " Technologies"
+    - " Tech."
+    - " Mobile Communication"
+    - " Mobile comm."
+    - " Communication"
+    - " Com."
+    - " Com "
+    - " Satellite"
+    - " Computer"
+    - " R&D"
+    - " Mobility"
+    - " MS"
+
+  # b) countries - 국가명 suffix 제거 (23개)
+  countries:
+    - " Germany"
+    - " FRANCE"
+    - " Belgium"
+    - " Italia"
+    - " Denmark"
+    - " Spain"
+    - " Sweden"
+    - " Switzerland"
+    - " Benelux"
+    - " Hungary"
+    - " Deutschland"
+    - " Finland"
+    - " Polska"
+    - " Austria"
+    - " España"
+    - " Europe"
+    - " Romania"
+    - " UK"
+    - " Japan"
+    - " India"
+    - " Ireland"
+    - " USA"
+    - " Korea"
+
+  # c) removes - 특정 지명 제거 (4개)
+  removes:
+    - "Beijing"
+    - "Nanjing"
+    - "Chengdu"
+    - "Telecommunications Cor"
+
+  # d) replaces - 특수 매핑 (15개)
+  replaces:
+    "Guangdong OPPO": "OPPO"
+    "Chinatelecom": "China Telecom"
+    "DOCOMO": "NTT Docomo"
+    "NTT": "NTT Docomo"
+    "GW": "Greenerwave"
+    "GM - ATCI": "GM"
+    "HuaWei": "Huawei"
+    "Huawei Device": "Huawei"
+    "IBM Europe": "IBM"
+    "Indian Institute of Tech (M)": "IIT Madras"
+    "Indian Institute of Tech (H)": "IIT Hyderabad"
+    "L.M. Ericsson": "Ericsson"
+    "Security Service": "Swedish Security Service"
+    "Telekom": "Deutsche Telekom"
+    "Deutsche Deutsche": "Deutsche"
+
+  # e) brackets - 괄호 제거 패턴
+  # 여는 괄호 기준 분리: re.split(brackets_pattern, name)[0]
+  brackets_pattern: "\\s\\("
+
+  # f) startswith - 통합 예외 목록 (4개)
+  # 정렬 후 prefix 기반 통합 시 예외 처리할 기업명
+  startswith_exceptions:
+    - "BTL"
+    - "CISA ECD"
+    - "Intelsat"
+    - "IIIT Bangalore"
+
+  # g) suffix - 접미어 제거 (54개)
+  suffix:
+    - " system"
+    - " Web Services"
+    - " Software"
+    - " Systems"
+    - " Wireless"
+    - " University"
+    - " Networks"
+    - " Network"
+    - " Research"
+    - " advanced"
+    - " Satcom"
+    - " Techno-Solutions"
+    - " Devices"
+    - " Veritas ADT"
+    - " Design"
+    - " ECD"
+    - " IOD"
+    - " Aerospace"
+    - " Digital"
+    - " Automotive"
+    - " Licensing"
+    - " innovations"
+    - " innovation"
+    - " Compliancy Solutions"
+    - " Solutions"
+    - " TrafficCom"
+    - " Transportation"
+    - " Global"
+    - " Micro"
+    - " Secure"
+    - " Niedersachsen"
+    - " DE L'INTERIEUR"
+    - " Manufacturing"
+    - " Electric Industry"
+    - " Industries"
+    - " Semiconductors"
+    - " Semiconductor"
+    - " Media"
+    - " laboratory"
+    - " Labs"
+    - " Lab"
+    - " Neuchatel SA"
+    - " electronic SE"
+    - " -"
+    - " Consulting"
+    - " Consultant"
+    - " Elec. Industries"
+    - " NRTA"
+    - " Motor"
+    - " Consult Services"
+    - " Recherche et Développement"
+    - " IoT"
+    - " -Telecom"
+    - " Integr. Circuit"
+
+  # h) prefix - 접두어 제거 (8개)
+  prefix:
+    - "Hangzhou "
+    - "IIIT "
+    - "IIT "
+    - "Institute "
+    - "Institut "
+    - "Shanghai "
+    - "ShenZhen "
+    - "Wuhan "
+
+# =============================================================================
+# Work Item 분리 설정 (Stage 4)
+# =============================================================================
+
+# WI 구분자 목록
+wi_delimiters:
+  - ","
+
+# 제외할 WI 패턴 (부분 문자열 매칭, case-insensitive)
+# 원본 노트북은 str.contains(r'TEI|DUMMY', flags=re.IGNORECASE) 사용
+wi_exclude_patterns:
+  - "TEI"
+  - "DUMMY"
+
+# =============================================================================
+# 시간 정보 설정 (Stage 5)
+# =============================================================================
+
+date_range:
+  # 분석 대상 최소 연도 (이전 연도는 제외)
+  # 원본 노트북: 2015년 이전 데이터 2건(1999년 등) 제외
+  min_year: 2015
