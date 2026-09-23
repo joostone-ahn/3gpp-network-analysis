@@ -46,16 +46,13 @@ htmlcov/
 # MyPy
 .mypy_cache/
 
-# Data directories (large files, collected from FTP)
-raw/
-data/raw/
-data/interim/
-data/processed/
-data/results/
+# Hypothesis test cache
+.hypothesis/
 
-# Logs
+# Data & Logs (runtime generated)
+data/
 logs/
-*.log
+raw/
 
 # Environment variables
 .env
@@ -64,6 +61,3 @@ logs/
 # OS files
 .DS_Store
 Thumbs.db
-
-# Hypothesis test cache
-.hypothesis/
